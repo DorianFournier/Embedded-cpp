@@ -11,9 +11,10 @@
 ## How to build
 > Same for publish-mqtt or receive-mqtt directory
 
-1. go to build directory : ```
-2. run : ```cmake ..```
-3. run : ```make```
+1. create *build* directory : ```mkdir build``` 
+2. go to build directory : ```cd build```
+3. run : ```cmake ..```
+4. run : ```make```
 
 <p align="right"><a href="#top">:point_up_2:</a></p>
 
