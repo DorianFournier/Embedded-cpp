@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- clone the repository : ```git clone ```
+- clone the repository : ```git clone https://github.com/DorianFournier/Embedded-cpp```
 
 <p align="right"><a href="#top">:point_up_2:</a></p>
 
