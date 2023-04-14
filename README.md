@@ -28,13 +28,18 @@
 ## Result for receive-mqtt 
 <div align="center">
   </br>
-  <img src="images/receive-mqtt message" alt="Receive-mqtt test" width="700" height="100">
+  <img src="images/receive-mqtt message test.png" alt="Receive-mqtt test" height="200">
   </br></br>
 </div>
 
 <p align="right"><a href="#top">:point_up_2:</a></p>
 
 ## Result for publish-mqtt
+<div align="center">
+  </br>
+  <img src="images/publish-mqtt-message.png" alt="Receive-mqtt test" height="160">
+  </br></br>
+</div>
 
 <p align="right"><a href="#top">:point_up_2:</a></p>
 
