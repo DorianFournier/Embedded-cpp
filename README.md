@@ -11,8 +11,8 @@
 ## How to build
 > Same for publish-mqtt or receive-mqtt directory
 
-1. create *build* directory : ```mkdir build``` 
-2. go to build directory : ```cd build```
+1. create **build** directory : ```mkdir build``` 
+2. go to **build** directory : ```cd build```
 3. run : ```cmake ..```
 4. run : ```make```
 
