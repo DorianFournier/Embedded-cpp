@@ -46,7 +46,7 @@
 ## Publish message with MQTT X
 <div align="center">
   </br>
-  <img src="images/publish-mqttx.png" alt="Publish on MQTT X" width="700" height="200">
+  <img src="images/publish-mqttx.png" alt="Publish on MQTT X" width="700" height="300">
   </br></br>
 </div>
 
