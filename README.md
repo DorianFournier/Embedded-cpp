@@ -110,7 +110,7 @@
 </div>
 
 <div align="center">
-  </br
+  </br>
   <img src="images/decrypt_file.png" alt="Result python tool">
   </br></br>
 </div>
