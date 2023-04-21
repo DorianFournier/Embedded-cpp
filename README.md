@@ -81,7 +81,6 @@
   <ol>
     <li><a href="#result-for-python-tool">Result for python tool</a></li>
     <li><a href="#qt-application">Qt application</a></li>
-    <li><a href="#publish-message-with-mqtt-x">Publish message with MQTT X</a></li>
   </ol>
 </details>
 
