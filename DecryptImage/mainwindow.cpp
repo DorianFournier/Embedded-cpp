@@ -26,7 +26,7 @@ void MainWindow::chooseFile(void)
     QRegularExpression pattern("[^/]+$");  // motif pour trouver le nom de fichier
     QRegularExpressionMatch match = pattern.match(_hidden_file_name);
     if (match.hasMatch()) {
-        ui->chosenFileLable->setText(match.captured());
+        ui->chosenFileLabel->setText(match.captured());
         qDebug() << "Nom de fichier:" << match.captured();
         ui->decryptButton->setDisabled(false);
     }

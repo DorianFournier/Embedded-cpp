@@ -1,4 +1,5 @@
 from PIL import Image
+import argparse
 
 
 def messageToBinary(message):
@@ -8,7 +9,7 @@ def messageToBinary(message):
 
 def hideData(image_filename, message):
     img = Image.open(
-        r'steganography-build-file/images/before_uncrypt/' + image_filename)
+        r'steganography-tool/images/before_uncrypt/' + image_filename)
     img = img.convert("RGB")  # Conversion en mode RGB
     width, height = img.size
     binary_message = messageToBinary(message)
@@ -20,12 +21,12 @@ def hideData(image_filename, message):
                 img.putpixel((col, row), (r & 254 | int(
                     binary_message[index]), g, b))
                 index += 1
-    img.save(r'steganography-build-file/images/after_uncrypt/' + image_filename)
+    img.save(r'steganography-tool/images/after_uncrypt/' + image_filename)
 
 
 def showData(hidden_image_filename):
     img = Image.open(
-        r'steganography-build-file/images/after_uncrypt/' + hidden_image_filename)
+        r'steganography-tool/images/after_uncrypt/' + hidden_image_filename)
     img = img.convert("RGB")  # Conversion en mode RGB
     binary_message = ""
     for row in range(img.size[1]):
@@ -45,6 +46,12 @@ def binaryToString(binary):
 
 
 if __name__ == "__main__":
+    # construct the argument parse and parse the arguments
+    ap = argparse.ArgumentParser()
+    ap.add_argument("-f", "--file", required=False, help="file to uncrypt")
+    args = vars(ap.parse_args())
+    print(args)
+
     filename = r"i_am_not_a_virus.png"
     message = "Ahah it's a prank ! I am a virus, give me money now !"
     hideData(filename, message)
