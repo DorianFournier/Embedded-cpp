@@ -90,7 +90,7 @@
 - run the command : ```python steganography-tool/building_tool.py --file file_name.png```
 <div align="center">
   </br>
-  <img src="images/python-tool.png" alt="Result python tool" width="700" height="220">
+  <img src="images/python-tool.png" alt="Result python tool">
   </br></br>
 </div>
 
