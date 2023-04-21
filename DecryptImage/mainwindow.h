@@ -2,8 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "threadelement.h"
-#include "decryptfile.h"
+#include "QFileDialog"
+#include "decryptprocess.h"
+#include <QRegularExpression>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -16,13 +17,16 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    ThreadElement *threadElement;
-    DecryptFile *decryptFile;
+    DecryptProcess *decrypt_process;
 
 public slots:
-    void spinBox(int number);
-    void browseFile(void);
+    void chooseFile(void);
+    void decryptFile(void);
+
 private:
     Ui::MainWindow *ui;
+    QString _hidden_file_name = "";
+    QString _hidden_message = "";
+    QString _initial_directory = "../steganography-build-file/images/after_uncrypt/";
 };
 #endif // MAINWINDOW_H
