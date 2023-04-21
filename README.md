@@ -1,6 +1,14 @@
 <div id="top"></div>
 
-# Embedded-cpp
+<details>
+  <summary>Summary</summary>
+  <ol>
+    <li><a href="#mqtt-with-c">MQTT with C++</a></li>
+    <li><a href="#stenography-with-c">Stenography with C++</a></li>
+  </ol>
+</details>
+
+# MQTT with C++
 
 <details>
   <summary>Table of Contents</summary>
@@ -65,3 +73,44 @@
 </div>
 
 <p align="right"><a href="#top">:point_up_2:</a></p>
+
+# Stenography with C++
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#result-for-python-tool">Result for python tool</a></li>
+    <li><a href="#qt-application">Qt application</a></li>
+    <li><a href="#publish-message-with-mqtt-x">Publish message with MQTT X</a></li>
+  </ol>
+</details>
+
+## Result for python tool
+
+- run the command : ```python steganography-tool/building_tool.py --file file_name.png```
+<div align="center">
+  </br>
+  <img src="images/python-tool.png" alt="Result python tool" width="700" height="220">
+  </br></br>
+</div>
+
+<p align="right"><a href="#top">:point_up_2:</a></p>
+
+# Qt application
+<div align="center">
+  </br>
+  <img src="images/app.png" alt="Qt application">
+  </br></br>
+</div>
+
+<div align="center">
+  </br>
+  <img src="images/browseFile.png" alt="Browse file">
+  </br></br>
+</div>
+
+<div align="center">
+  </br
+  <img src="images/decrypt_file.png" alt="Result python tool">
+  </br></br>
+</div>
