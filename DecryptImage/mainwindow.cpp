@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->decryptButton->setDisabled(true);
     decrypt_process = new DecryptProcess();
 }
 
@@ -27,6 +28,7 @@ void MainWindow::chooseFile(void)
     if (match.hasMatch()) {
         ui->chosenFileLable->setText(match.captured());
         qDebug() << "Nom de fichier:" << match.captured();
+        ui->decryptButton->setDisabled(false);
     }
 }
 

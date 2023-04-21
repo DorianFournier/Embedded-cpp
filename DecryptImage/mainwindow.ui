@@ -78,21 +78,28 @@ li.checked::marker { content: &quot;\2612&quot;; }
          </size>
         </property>
         <property name="text">
-         <string>TextLabel</string>
+         <string>...</string>
         </property>
        </widget>
       </item>
      </layout>
     </widget>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="decryptButton">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>410</y>
-      <width>80</width>
-      <height>23</height>
+      <x>310</x>
+      <y>400</y>
+      <width>121</width>
+      <height>51</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#decryptButton{
+	background:rgb(0, 103, 0);
+	border: 2px solid  rgb(245, 185, 125);
+	border-radius: 20px;
+}</string>
     </property>
     <property name="text">
      <string>Decrypt File</string>
@@ -130,7 +137,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_2</sender>
+   <sender>decryptButton</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>decryptFile()</slot>
