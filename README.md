@@ -100,19 +100,19 @@
 # Qt application
 <div align="center">
   </br>
-  <img src="images/app.png" alt="Qt application">
+  <img src="images/application.png" alt="Qt application">
   </br></br>
 </div>
 
 <div align="center">
   </br>
-  <img src="images/browseFile.png" alt="Browse file">
+  <img src="images/browse_file.png" alt="Browse file">
   </br></br>
 </div>
 
 <div align="center">
   </br>
-  <img src="images/decrypt_file.png" alt="Result python tool">
+  <img src="images/decrypted_message.png" alt="Result python tool">
   </br></br>
 </div>
 
