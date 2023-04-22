@@ -81,7 +81,6 @@
   <ol>
     <li><a href="#result-for-python-tool">Result for python tool</a></li>
     <li><a href="#qt-application">Qt application</a></li>
-    <li><a href="#publish-message-with-mqtt-x">Publish message with MQTT X</a></li>
   </ol>
 </details>
 
@@ -90,7 +89,7 @@
 - run the command : ```python steganography-tool/building_tool.py --file file_name.png```
 <div align="center">
   </br>
-  <img src="images/python-tool.png" alt="Result python tool" width="700" height="220">
+  <img src="images/python-tool.png" alt="Result python tool">
   </br></br>
 </div>
 
@@ -114,3 +113,5 @@
   <img src="images/decrypt_file.png" alt="Result python tool">
   </br></br>
 </div>
+
+<p align="right"><a href="#top">:point_up_2:</a></p>
