@@ -6,7 +6,7 @@
   <summary>Summary</summary>
   <ol>
     <li><a href="#mqtt-with-c">MQTT with C++</a></li>
-    <li><a href="#stenography-with-c">Stenography with C++</a></li>
+    <li><a href="#steganography-with-c">Steganography with C++</a></li>
   </ol>
 </details>
 
@@ -76,7 +76,7 @@
 
 <p align="right"><a href="#top">:point_up_2:</a></p>
 
-# Stenography with C++
+# Steganography with C++
 
 <details>
   <summary>Table of Contents</summary>
