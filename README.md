@@ -1,5 +1,7 @@
 <div id="top"></div>
 
+>This repository contains my work for C++ embedded course at Ynov Campus
+
 <details>
   <summary>Summary</summary>
   <ol>
@@ -89,7 +91,7 @@
 - run the command : ```python steganography-tool/building_tool.py --file file_name.png```
 <div align="center">
   </br>
-  <img src="images/python-tool.png" alt="Result python tool">
+  <img src="images/building_tool.png" alt="Result python tool">
   </br></br>
 </div>
 
