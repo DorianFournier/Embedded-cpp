@@ -81,14 +81,21 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#result-for-python-tool">Result for python tool</a></li>
+    <li><a href="#use-python-tool">Use python tool</a></li>
     <li><a href="#qt-application">Qt application</a></li>
   </ol>
 </details>
 
-## Result for python tool
+## Use python tool
+
+> put yout image into : ```steganography-tool/images/before_encryption/```
 
 - run the command : ```python steganography-tool/building_tool.py --file file_name.png```
+
+1. enter the message you want ton encrypt
+2. path to the new image with encrypted message : ```steganography-tool/images/after_encryption/```
+2. check if the message has been successfully decrypted
+
 <div align="center">
   </br>
   <img src="images/building_tool.png" alt="Result python tool">
@@ -98,19 +105,26 @@
 <p align="right"><a href="#top">:point_up_2:</a></p>
 
 # Qt application
-<div align="center">
+
+- Just below you can see the Qt application :
+
+<div align="left">
   </br>
   <img src="images/application.png" alt="Qt application">
   </br></br>
 </div>
 
-<div align="center">
+- Click on "Choose file" button to select a .PNG file.
+
+<div align="left">
   </br>
   <img src="images/browse_file.png" alt="Browse file">
   </br></br>
 </div>
 
-<div align="center">
+- Click on "Decrypt File". 
+- The encrypted message will be print into TextBrowser
+<div align="left">
   </br>
   <img src="images/decrypted_message.png" alt="Result python tool">
   </br></br>
