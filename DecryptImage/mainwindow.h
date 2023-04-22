@@ -27,6 +27,6 @@ private:
     Ui::MainWindow *ui;
     QString _hidden_file_name = "";
     QString _hidden_message = "";
-    QString _initial_directory = "../steganography-tool/images/after_uncrypt/";
+    QString _initial_directory = "../steganography-tool/images/after_encryption/";
 };
 #endif // MAINWINDOW_H

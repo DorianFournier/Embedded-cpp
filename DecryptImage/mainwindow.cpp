@@ -21,13 +21,12 @@ void MainWindow::chooseFile(void)
     _hidden_file_name = QFileDialog::getOpenFileName(this, tr("Open File"),
                                                     _initial_directory,
                                                     tr("Images (*.png)"));
-    qDebug() << ": " << _hidden_file_name << " a été choisis";
 
-    QRegularExpression pattern("[^/]+$");  // motif pour trouver le nom de fichier
+    QRegularExpression pattern("[^/]+$");
     QRegularExpressionMatch match = pattern.match(_hidden_file_name);
     if (match.hasMatch()) {
         ui->chosenFileLabel->setText(match.captured());
-        qDebug() << "Nom de fichier:" << match.captured();
+        qDebug() << "Filename:" << match.captured();
         ui->decryptButton->setDisabled(false);
     }
 }
@@ -35,6 +34,6 @@ void MainWindow::chooseFile(void)
 void MainWindow::decryptFile(void)
 {
     _hidden_message = decrypt_process->showData(_hidden_file_name);
-    qDebug() << "Le message caché est" << _hidden_message<<"";
+    qDebug() << "Hidden word is : " << _hidden_message<<"";
     ui->textBrowser->setText(_hidden_message);
 }
