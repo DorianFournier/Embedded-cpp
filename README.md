@@ -52,7 +52,7 @@
 ## Result for receive-mqtt 
 <div align="center">
   </br>
-  <img src="images/receive-mqtt message test.png" alt="Receive-mqtt test" height="200">
+  <img src="images/receive-mqtt message test.png" alt="Receive-mqtt test">
   </br></br>
 </div>
 
@@ -61,7 +61,7 @@
 ## Result for publish-mqtt
 <div align="center">
   </br>
-  <img src="images/publish-mqtt-message.png" alt="Receive-mqtt test" height="160">
+  <img src="images/publish-mqtt-message.png" alt="Receive-mqtt test">
   </br></br>
 </div>
 
@@ -70,7 +70,7 @@
 ## Publish message with MQTT X
 <div align="center">
   </br>
-  <img src="images/publish-mqttx.png" alt="Publish on MQTT X" width="700" height="220">
+  <img src="images/publish-mqttx.png" alt="Publish on MQTT X">
   </br></br>
 </div>
 
